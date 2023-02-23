@@ -10,7 +10,7 @@ by you.
 Here's an example of a code line calling one of the amazing functions
 developed by the great community of one student in a course:
 
-´´´
+```
 import pandas as pd
 
 tempDataset = pd.read_csv("airTemps.csv")
@@ -18,7 +18,7 @@ tempDataset = pd.read_csv("airTemps.csv")
 meanAirTemp = mean_temperature(meanAirTemp)
 
 print(meanAirTemp)
-´´´
+```
 
 The above should return the mean air temperature out of a csv previously
 loaded to the workspace.
